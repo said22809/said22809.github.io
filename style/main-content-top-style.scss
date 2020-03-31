@@ -1,0 +1,130 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  height: auto;
+}
+.main-content-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 61px;
+
+}
+.main-content__left{
+  margin-right: 24px;
+}
+.main-content__left-top{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-content__left-top__image{
+  z-index: 1;
+}
+.main-content__left-top__image-text{
+  z-index: 2;
+  position: absolute;
+  left: 134px;
+  top: 75px;
+  font-size: 44px;
+  color: #2E384D;
+  letter-spacing: -0.6px;
+  font-weight: 300;
+}
+.main-content__left-top__image-text2{
+  z-index: 2;
+  position: absolute;
+  left: 120px;
+  top: 150px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 1.21333px;
+  text-transform: uppercase;
+
+  color: #8798AD;
+}
+.main-content__left-top__second h3{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  margin: 47px auto 9px 47px;
+  color: #2E384D;
+  margin-top: 45px;
+}
+.main-content__left-top__second p{
+  font-weight: normal;
+  font-size: 15px;
+  color: #8798AD;
+  margin: 13px 27px 42px 47px;
+}
+.main-content__left-top__first{
+  margin-left: 45px;
+}
+.main-content__left-bot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  align-content: space-between;
+}
+.main-content__left-bot__first{
+  width: 100%;
+  margin: 35px 0 0 0;
+  padding-left: 15px;
+  p{
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.21333px;
+    text-transform: uppercase;
+    color: #8798AD;
+    span{
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 57px;
+      /* identical to box height */
+
+      letter-spacing: -0.6px;
+
+      color: #2E384D;
+
+    }
+  }
+  background-color: white;
+}
+.main-content__left-bot__first:nth-child(2){
+  margin-left: 24px;
+}
+.main-content__left-bot__second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-left: 15px;
+  width: 100%;
+  margin: 24px 0 0 12px;
+}
+.main-content__left-bot__first__text{
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 32px;
+  color: #2E384D;
+}
+.main-content__map{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.main-content__bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.main-content__bottom__item{
+  margin-right: 15px;
+
+}
